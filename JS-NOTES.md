@@ -145,5 +145,5 @@
         name: "Sabit",
         age: 23
     }
-    delete obj.age; // Outout: obj = {name: "Sabit"}
+    delete obj.age; // Output: obj = {name: "Sabit"}
     ```
