@@ -91,3 +91,25 @@ Effect: locked in at a minimum size --> starts inceasing --> locked in at a maxi
   font-size: clamp(2rem, 5vw, 5rem);
 }
 ```
+
+## Steps for responsive web design (use this technique for almost every web pages) 
+#### HTML Part: 
+1. Prepare all dependencies, connect fonts, CSS/JS files.
+2. Look at the design and detect the structure of the HTML
+3. At the same time, detect how you can reuse same classes, same tags like `.container, .row, .col, h1 (for big headings), h2 (for small headings), section` and so on.
+4. Plan ahead. This will make the process much smooth.
+5. Only write the html structure without any content
+6. Put the contents on the HTML
+7. Now start with mobile-first. Hence, open the mobile responsive mode
+#### CSS Part:   
+1. At first using universal selector, set `box-sizing: border-box`
+2. Custom variables: Declare all the custom variables - font sizes and colors
+3. General selections: Complete the general selections, such as
+   - Reset body margin: `body{ margin: 0 }`
+   - Container class: `.container{ specify widths, max-widths, margn: 0 auto }`. Reuse this class to align the whole page.
+   - Row/col classes: `.row { display: flex }` `.col { width: 100%}` `.col + .col { margin-left: 2em }`. Reuse these classes to create row and columns.
+4. Just, put the colors, fonts, font sizes and necessary padding/margin only for the mobile to look good.
+5. Complete the mobile version.
+6. Then, start moving your way up to as necessary `600px | 900px | 1200px | 1800px (optional)`
+
+Note: Remember you don't need to perfect responsiveness for every sizes. It is impossible to cover every sizes. Just do the general ones. If everything looks good and readable then it's fine.
