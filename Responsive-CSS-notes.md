@@ -112,4 +112,4 @@ Effect: locked in at a minimum size --> starts inceasing --> locked in at a maxi
 5. Complete the mobile version.
 6. Then, start moving your way up to as necessary `600px | 900px | 1200px | 1800px (optional)`
 
-`Note:` Remember you don't need to perfect responsiveness for every sizes. It is impossible to cover every sizes. Just do the general ones. If everything looks good and readable then it's fine.
+**Note:** Remember you don't need to perfect responsiveness for every sizes. It is impossible to cover every sizes. Just do the general ones. If everything looks good and readable then it's fine.
